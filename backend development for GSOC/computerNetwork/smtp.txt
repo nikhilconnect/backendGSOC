@@ -1,0 +1,13 @@
+how to setup mail on smtp server gmail 
+
+config.action_mailer.smtp_settings = {
+    :address => "smtp.gmail.com",
+    :port => "587",
+    :domain => "mydomain.net",
+    :user_name => "mygmailusername@gmail.com",
+    :password => "myGmailPassword",
+    :authentication => "plain",
+    :enable_starttls_auto => true
+  } 
+
+
